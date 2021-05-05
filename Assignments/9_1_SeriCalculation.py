@@ -6,7 +6,6 @@ def fact(n):
     while n > 1:
         n -= 1
         result *= n
-        string="fhefhlksdjofjldsjkjf"
     return result
 
 # function to calculate combination  C(m,n)
@@ -24,5 +23,5 @@ def calculate(n):
     return result
 
 
-b = int(input())
-print(calculate(b))
+inp = int(input())
+print(calculate(inp))
